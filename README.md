@@ -49,7 +49,7 @@ tests/
 Via Composer
 
 ``` bash
-$ composer require pyaesone17/s3_reducer
+$ composer require pyaesone17/s3-reducer
 ```
 
 If you are using below laravel 5.4, you have to register service provider like this.
