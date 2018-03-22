@@ -45,6 +45,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Pyaesone17\\S3Reducer\\S3ReducerServiceProvider"
+            ]
         }
     },
     "config": {

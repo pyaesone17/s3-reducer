@@ -1,6 +1,6 @@
 # S3Reducer
 
-Small , minimalist but effective library to reduce your s3 billing dramatically just by calling custom asset function.
+Small ,minimalist but effective Laravel library to reduce your s3 billing dramatically just by calling custom asset function.
 Song interesting ? Let's try and check your monthly billing.
 You will ever want to treat me beer for that.
 
