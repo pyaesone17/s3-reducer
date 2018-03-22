@@ -43,10 +43,10 @@ $ composer require pyaesone17/s3_reducer
 ```
 
 If you are using below laravel 5.4, you have to register service provider like this.
-``` bash
-    'providers' => [
-        Pyaesone17\S3ReducerS3\ReducerServiceProvider::class
-    ]
+``` php
+'providers' => [
+  Pyaesone17\S3ReducerS3\ReducerServiceProvider::class
+]
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ I recommend to use unique image path when uploading to s3 server.
 Because this library will make folder like s3 bucket style.
 
 ``` php
- <img src="{{ s3_reducer($img->path) }}"/>
+<img src="{{ s3_reducer($img->path) }}"/>
 ```
 
 ## Purge Cache
@@ -64,7 +64,7 @@ You don't have to purge the cache of assets.
 To clear the local cache image, you can even use this function.
 
 ``` php
-    s3_reduce_purge($image->path); 
+s3_reduce_purge($image->path); 
 ```
 
 ## Cron Job
@@ -72,7 +72,7 @@ To avoid, you local server full with s3 images.
 You should add task scheduling like this in App\Console\Kernel.php
 
 ``` php
-    $schedule->command('s3reducer:purge')->weekly();
+$schedule->command('s3reducer:purge')->weekly();
 ```
 
 ## Testing
