@@ -98,6 +98,7 @@ $ composer test
 ## Note
 It is just for showing frequent read requests to s3 assets.
 But for manipulating media, you should try to do it on actual s3 storage.
+For devops experience engineer, I still recommend to use nginx cache to do this better performance.
 
 ## License
 
