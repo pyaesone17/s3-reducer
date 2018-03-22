@@ -45,7 +45,7 @@ $ composer require pyaesone17/s3_reducer
 If you are using below laravel 5.4, you have to register service provider like this.
 ``` php
 'providers' => [
-  Pyaesone17\S3ReducerS3\ReducerServiceProvider::class
+    Pyaesone17\S3ReducerS3\ReducerServiceProvider::class
 ]
 ```
 
