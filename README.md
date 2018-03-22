@@ -24,6 +24,16 @@ it will download the asset from the s3 server and store it on local server.
 After that it will serve assets to the user.
 Therefore, you will only have to pay for s3 when no local cache file is exist.
 
+## Why Just Dont Use Local Filesystem
+You might claim that why just don't use local file system if the libary behind the sense store image in local to cache the s3 assets.
+Well, what happens if your server crush, your important assets will lost forever.
+And your vps server have limited data storage, mean while you can upload unlimited to the s3.
+
+
+## Your local won't full storage ? You said library download from s3 and serve from local server ?
+No, you can clear those cache, at a certain time by running cron job. Your server won't full with storage.
+Daily, weekly or monthly ? It just depends on your configuration.
+
 ## Structure
 
 If any of the following are applicable to your project, then the directory structure should follow industry best practices by being named the following.
