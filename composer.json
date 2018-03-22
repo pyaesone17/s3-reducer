@@ -1,12 +1,12 @@
 {
-    "name": "Pyaesone17/S3Reducer",
+    "name": "pyaesone17/s3-reducer",
     "type": "library",
-    "description": ":package_description",
+    "description": "Small and minimalist but effective Laravel library to reduce your s3 billing dramatically just by calling custom asset function.",
     "keywords": [
         "Pyaesone17",
         "S3Reducer"
     ],
-    "homepage": "https://github.com/Pyaesone17/S3Reducer",
+    "homepage": "https://github.com/pyaesone17/s3-reducer",
     "license": "MIT",
     "authors": [
         {
