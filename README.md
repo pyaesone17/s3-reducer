@@ -64,6 +64,10 @@ If you are using below laravel 5.4, you have to register service provider like t
 I recommend to use unique image path when uploading to s3 server.
 Because this library will make folder like s3 bucket style.
 
+``` bash
+$ php artisan storage:link
+```
+
 ``` php
 <img src="{{ s3_reducer($img->path) }}"/>
 ```
